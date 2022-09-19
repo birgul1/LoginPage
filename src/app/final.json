@@ -1,0 +1,86 @@
+{
+  "OfferCharList": [{
+    "OfferTypeList": [
+      {
+      "id": 1,
+      "name": "Tv",
+      "description": "\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+      "status": "active",
+      "creationDate":"21.02.2021"
+    },
+      {
+        "id": 2,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+        "status": "active",
+        "creationDate":"21.02.2021"
+      },
+      {
+        "id": 3,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+        "status": "active",
+        "creationDate":"21.02.2021"
+      },
+      {
+        "id": 4,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+        "status": "active",
+        "creationDate":"21.02.2021"
+      },
+      {
+        "id": 5,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+        "status": "active",
+        "creationDate":"21.02.2021"
+      },
+      {
+        "id": 6,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+        "status": "active",
+        "creationDate":"21.02.2021"
+      },
+      {
+        "id": 7,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+        "status": "active",
+        "creationDate":"21.02.2021"
+      },
+      {
+        "id": 8,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV",
+        "status": "active",
+        "creationDate":"21.02.2021"
+      },
+      {
+        "id": 9,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+        "status": "active",
+        "creationDate":"21.02.2021"
+      },
+      {
+        "id": 10,
+        "name": "Tv",
+        "description":"\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV" ,
+        "status": "active",
+        "creationDate":"21.02.2021"
+      }
+    ],
+    "OfferCharTypeList": [
+      {
+      "charValueId": 123,
+      "name": "Tv",
+      "description": "\"SAMSUNG 65QN700B 65\" 163 Ekran Uydu Alıcılı Smart 8K Ultra HD Neo QLED TV",
+      "selectedValue": "31.03.2021"
+    }
+    ]
+  }],
+  "returnCode": "succes",
+  "returnMessage": "success"
+}

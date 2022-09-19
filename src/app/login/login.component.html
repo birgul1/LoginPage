@@ -1,0 +1,21 @@
+<div class="container-md flex" style="background: ghostwhite">
+  <h2 class="text-center">Login Screen</h2>
+  <div class="login-form  d-flex justify-content-center h-100">
+    <div class="login-form col-md-3 col-sm-6">
+      <div class="card bg-gradient" style="width: 18rem; height: 20rem;">
+      <form [formGroup]="userAddForm" (ngSubmit)="add()" class="form-group">
+        <div class="form-group mb-4 mt-4">
+          <input type="text" id="userName" name="userName" formControlName="userName" class="form-control" placeholder="User Name">
+          <div class="alert alert-danger" *ngIf="userAddForm.get('userName').hasError('required') && userAddForm.get('userName').touched">Username is required.</div>
+        </div>
+        <div class="form-group mb-4">
+          <input type="password" id="password" name="password" formControlName="password" class="form-control" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-danger" (click)="registerButton()">Register</button>
+        <button type="submit" class="btn btn-danger m-md-2" [disabled]="userAddForm.invalid" (click)="loginButton()">Login</button>
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
+

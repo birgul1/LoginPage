@@ -1,0 +1,29 @@
+<div class="d-flex justify-content-center h-100" style="background: ghostwhite">
+  <div class="card mt-5" style="width: 18rem; height: 28rem;">
+    <h3>Register Screen</h3>
+  <form [formGroup]="registerForm" (ngSubmit)="registerAdd()" class="form-group">
+    <div class="form-group mb-2">
+      <span>User Name</span><input type="text" id="userName" name="userName"  formControlName="userName" class="form-control" placeholder="User Name">
+    </div>
+    <div class="form-group mb-2">
+     <span>Password</span> <input type="password" id="password" name="password" formControlName="password" class="form-control"  placeholder="Password">
+    </div>
+    <div class="form-group mb-2">
+     <span>Confirm Password</span> <input type="password" id="confirmPassword" name="confirmPassword" formControlName="confirmPassword" class="form-control"  placeholder="Confirm Password" required>
+    </div>
+    <div class="form-group">
+      <span>User Type</span>
+    <select class="form-select form-select-sm mb-3" id="userType" name="userType" formControlName="userType" aria-label="form-select-lg example">
+      <option selected>User</option>
+      <option>Admin</option>
+    </select>
+    </div>
+    <div class="form-group mb-2">
+    <button type="submit" class="btn btn-danger" [disabled]="registerForm.invalid" (click)="registerAdd()">Register</button>
+    </div>
+    <br>
+  </form>
+  </div>
+
+</div>
+
