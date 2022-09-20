@@ -24,7 +24,7 @@ export class SelectedOfferState {
     payload: number) {
     return this.selectedOfferService.continueSelectedOffer('continueSelectedOfer', payload).pipe(
       tap(response => {
-        patchState({})
+        patchState({selectedOfferData: response})
       })
     )
   }

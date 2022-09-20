@@ -10,6 +10,6 @@ export class CreateSelectedOffer {
 }
 export class ContinueSelectedOffer{
   static readonly type='[SelectedOffer] ContinueSelectedOffer'
-  constructor(public payload: {id: number; name: string; description: string; status:string; creatonDate:string}) {
+  constructor(public payload: {seletedOfferId: any}) {
   }
 }

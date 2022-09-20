@@ -10,7 +10,7 @@ export class SelectedOfferService {
   constructor(private http: HttpClient) {
   }
 
-  continueSelectedOffer(params: string, payload: number): Observable<SelectedOffer.SelectedOfferResponse> {
+  continueSelectedOffer(params: string, payload: number): Observable<{ offerCharList: { offerTypeList: ({ name: string; description: string; id: number; creationDate: string; status: string } | { name: string; description: string; id: number; creationDate: string; status: string } | { name: string; description: string; id: number; creationDate: string; status: string } | { name: string; description: string; id: number; creationDate: string; status: string })[]; offerCharTypeList: { charValueId: number; name: string; description: string; selectedValue: number }[] }[]; returnCode: string; returnMessage: string }> {
     return of({
       offerCharList:
         [{
@@ -22,28 +22,6 @@ export class SelectedOfferService {
               status: "active",
               creationDate: "02.03.2020",
 
-            },
-            {
-              id: 2,
-              name: "Tv",
-              description: "Samsung Televizyon, LED Ekran",
-              status: "active",
-              creationDate: "02.03.2020",
-            },
-            {
-              id: 3,
-              name: "Tv",
-              description: "Samsung Televizyon, LED Ekran",
-              status: "pasive",
-              creationDate: "02.03.2020",
-
-            },
-            {
-              id: 4,
-              name: "Tv",
-              description: "Samsung Televizyon, LED Ekran",
-              status: "active",
-              creationDate: "02.03.2020",
             }
 
           ],
